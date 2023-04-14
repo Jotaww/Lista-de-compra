@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #272727;
+    width: 100vw;
+}
+
+main {
+    background-color: #F4F4F9;
+    display: block;
+    margin: auto;
+    width: 75vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    display: block;
+    white-space: normal
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+    color: rgb(10, 84, 180);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+
+label {
+    display: block;
+    color: #1079cf;
+    font-weight: bold;
+    margin: 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.144);
+}
+
+input {
+    display: block;
+    margin: 15px;
+    width: 88%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.151);
+    outline-color: rgb(26, 6, 204);
+}
+
+input:focus {
+    border-color: aqua;
+}
+
+#botao {
+    background-color: rgb(10, 22, 180);
+    color: white;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: #1079cf;
+    width: 51%;
+}
+
+#separador {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+}
+
+.container{
+    border-top: 1px solid gray;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.c {
+    color: #1079cf;
+    width: 100%;
+    margin-right: 10px ;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.144);
+}
+
+.v {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.botoes {
+    display: flex;
+    margin: auto;
+
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botoes > button {
+    padding: 5px;
+    margin: 3px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: rgb(10, 22, 180);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.363);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.botoes > button:hover {
+    background-color: #1079cf;
+}
+
+.done > p {
+    text-decoration: line-through;
+    font-style: italic;
+}
+.done > h3 {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+
+button i {
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}
+
+.centralizarBtn {
+    display: flex;
+    margin: auto;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#edit {
+    background-color: rgb(10, 22, 180);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30%;
+    font-weight: bold;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.363);
+}
+
+#edit:hover {
+    background-color: #1079cf;
+}
+
+#btn-cancel {
+    background-color: rgb(10, 22, 180);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30%;
+    font-weight: bold;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.363);
+}
+
+#btn-cancel:hover {
+    background-color: #1079cf;
+}
+
+#total {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+#total > h3 {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#total > p {
+    text-align: center;
+    margin-top: 10px;
+}
